@@ -27,5 +27,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip -r pyproject.toml
+      - run: pip install -r pyproject.toml
       - run: mkdocs gh-deploy --force
