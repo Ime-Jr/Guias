@@ -12,7 +12,6 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-
 nav:
   - Home: index.md
   - "Guia de Contribuição": contribuir.md
