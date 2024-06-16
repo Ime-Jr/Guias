@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "guias"
+version = "0.1.0"
+description = ""
+authors = ["Jose Edmario <56650001+JEdmario16@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs-material = "^9.5.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
