@@ -60,7 +60,7 @@ Como dito anteriormente, o site é gerado a partir dos arquivos Markdown present
 
 1. Instale as dependências do MkDocs:
     ```bash
-    pip install -r pyproject.toml
+    pip install pyproject.toml
     ```
 2. Rode o servidor local:
     ```bash 
