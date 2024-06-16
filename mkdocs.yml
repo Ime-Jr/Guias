@@ -1,23 +1,58 @@
-site_name: ImeJr Guias
+site_name: IME Jr. - Guias do Desenvolvedor
 site_url: https://imejr.github.io/guias/
 repo_url: https://github.com/Ime-Jr/Guias
-edit_uri: edit/main/
+edit_uri: ''
+site_description: Guias para desenvolvedores da IME Jr.
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
 
 theme:
   name: material
   palette:
-    primary: yellow
-    accent: green
+
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch Theme
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: yellow
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Dark Mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: yellow
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Light Mode
+      
   font:
     text: Roboto
     code: Roboto Mono
 
 nav:
-  - Home: index.md
-  - "Guia de Contribuição": contribuir.md
-  - "Guia de Estilo": estilo.md
-  - "Guia de Instalação": instalacao.md
-  - "Guia de Uso": uso.md
-  - "Guia de Desenvolvimento": desenvolvimento
+  - Início: index.md
+  - Matemática e Estatística:
+    - Cálculo Numérico: lorem.md
+    - Estatística: ipsum.md
+  - Desenvolvimento Web:
+    - Frontend: dolor.md
+    - Backend: sit.md
+  - Automação:
+    - Python: amet.md
+    - Shell: consectetur.md
+  - Desing:
+    - Figma: adipiscing.md
+    - Photoshop: elit.md
+  - Outros:
+    - Git: adipiscing.md
+    - Docker: elit.md
 
 
