@@ -1,8 +1,10 @@
 site_name: IME Jr. - Guias do Desenvolvedor
-site_url: https://imejr.github.io/guias/
+site_url: https://ime-jr.github.io/Guias/
+repo_name: ime-jr/Guias
 repo_url: https://github.com/Ime-Jr/Guias
 edit_uri: ''
 site_description: Guias para desenvolvedores da IME Jr.
+copyright: Copyright &copy; 2016 - 2024 IME Jr.
 
 markdown_extensions:
   - attr_list
@@ -37,11 +39,27 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+  features:
+  - search.suggest
+  - search.highlight
+
+  - navigation.expand
+  - navigation.path
+  - navigation.footer
+  - navigation.tabs
+  - navigation.indexes
+
+  - content.code.annotate
+  - content.code.copy
+  - content.code.select
+  - content.tabs.link
+  - content.tooltips
+
 nav:
   - Início: index.md
   - Matemática e Estatística:
-    - Cálculo Numérico: lorem.md
-    - Estatística: ipsum.md
+    - Início: matematica-estatistica/inicio.md
+    - Resolvendo o Campo Minado em Python: matematica-estatistica/resolvendo-o-campo-minado-com-python.md
   - Desenvolvimento Web:
     - Frontend: dolor.md
     - Backend: sit.md
@@ -55,4 +73,6 @@ nav:
     - Git: adipiscing.md
     - Docker: elit.md
 
-
+plugins:
+  - search: null
+  - git-authors
