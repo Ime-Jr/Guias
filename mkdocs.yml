@@ -1,0 +1,23 @@
+site_name: ImeJr Guias
+site_url: https://imejr.github.io/guias/
+repo_url: https://github.com/Ime-Jr/Guias
+edit_uri: edit/main/
+
+theme:
+  name: material
+  palette:
+    primary: yellow
+    accent: green
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - "Guia de Contribuição": contribuir.md
+  - "Guia de Estilo": estilo.md
+  - "Guia de Instalação": instalacao.md
+  - "Guia de Uso": uso.md
+  - "Guia de Desenvolvimento": desenvolvimento
+
+
