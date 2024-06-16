@@ -27,5 +27,6 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install pyproject.toml
+      - run: pip install poetry
+      - run: poetry install --no-root
       - run: mkdocs gh-deploy --force
